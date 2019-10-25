@@ -96,11 +96,8 @@ function (
   props.profiles
   props.movies
   props.users
-)
-
-class App extends Component {
-  render() {
-    return (
+) {
+ return (
       <div>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -109,8 +106,7 @@ class App extends Component {
         <h1>How Popular is Your Favorite Movie?</h1>
         <MovieCardsList profiles={profiles} movies={movies} users={users} />
       </div>
-    );
+    ); 
   }
-}
 
 export default App;
