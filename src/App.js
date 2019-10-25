@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MovieCardsList from './MovieCardsList';
@@ -92,11 +92,7 @@ const movies = {
   },
 };
 
-function (
-  props.profiles
-  props.movies
-  props.users
-) {
+function App (props) {
  return (
       <div>
         <header className="App-header">
