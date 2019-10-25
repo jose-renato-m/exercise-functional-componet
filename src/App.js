@@ -92,6 +92,12 @@ const movies = {
   },
 };
 
+function (
+  props.profiles
+  props.movies
+  props.users
+)
+
 class App extends Component {
   render() {
     return (
